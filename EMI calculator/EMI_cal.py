@@ -72,36 +72,3 @@ root.configure(background="Lightblue")
 
 root.mainloop()
 
-
-
-# # Principal loan amount
-# frame1 = Frame(root)
-# frame1.pack()
-
-# # Rate of interest
-# frame2 = Frame(root)
-# frame2.pack()
-
-# # Number of years
-# frame3 = Frame(root)
-# frame3.pack()
-
-# # output frame
-# frame4 = Frame(root)
-# frame4.pack()
-
-# Nextframe = Frame(root)
-# Nextframe.pack( side = BOTTOM )
-# # relief must be -> flat, groove, raised, ridge, solid, or sunken
-
-# # -after, -anchor, -before, -expand, -fill, -in, -ipadx, -ipady, -padx, -pady, or -side
-# E = Label(frame4, text="EMI", font=("Times New Roman", 12, "bold"), relief=GROOVE, anchor="center")
-# E.pack(side=LEFT, pady=20, padx=10, ipadx=10, ipady=5)
-
-# l = Label(frame4, text="", anchor="center")
-# l.pack(side=LEFT, pady=20, ipadx=20, ipady=5)
-
-# button = Button(Nextframe, text="Calculate EMI", command=Calculate(1000, 2, 3))
-# # button.config(foregroundcolor="green")
-# button.pack(side = BOTTOM, pady = 20)
-
